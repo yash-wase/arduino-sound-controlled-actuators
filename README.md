@@ -34,6 +34,8 @@ A clap or finger snap toggles an LED ON or OFF. Uses edge detection and debounci
 
 ### Pin Connections
 
+![Wiring diagram](wiring_clap_led.svg)
+
 | HL-009 Pin | Arduino Pin |
 |---|---|
 | VCC | 3.3V |
@@ -44,6 +46,8 @@ A clap or finger snap toggles an LED ON or OFF. Uses edge detection and debounci
 |---|---|
 | Anode (+) via 220Ω | Digital Pin 13 |
 | Cathode (−) | GND |
+
+
 
 ### Behavior
 - **Clap / Snap once** → LED turns ON
@@ -57,6 +61,8 @@ A clap or finger snap toggles an LED ON or OFF. Uses edge detection and debounci
 A clap or finger snap simultaneously toggles an LED and sweeps a servo motor between 0° and 180°. Both actuators share a single state variable so they are always in sync. The LED responds instantly while the servo sweeps smoothly degree by degree.
 
 ### Pin Connections
+
+![Wiring diagram](wiring_clap_servo.svg)
 
 | HL-009 Pin | Arduino Pin |
 |---|---|
