@@ -20,7 +20,7 @@
 */
 
 // ── Pin Definitions ──────────────────────────────────────────
-const int SOUND_PIN = 8;   
+const int SOUND_PIN = 2;   
 const int LED_PIN   = 13;  
 
 // ── State Variables ──────────────────────────────────────────
